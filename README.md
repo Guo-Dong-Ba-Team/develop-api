@@ -1,1 +1,1 @@
-API documents for develop and interact among web-front-end, web-back-end and app-end.
+API documents for developing and interacting among web-front-end, web-back-end and app-end.
