@@ -1,10 +1,11 @@
 ﻿#1. 数据库表格
+注：PK表示Primary Key，即主键
 
 ##商家信息business_info
-1. 用户名 name: string 
+1. 用户名 name: string(手机号或者邮箱) PK
 2. 登录方式 login_type: bool 用手机登陆还是用邮箱登陆（0为手机）
-3. 手机号 phone_num string PK
-4. 邮箱 email string PK
+3. 手机号 phone_num string 
+4. 邮箱 email string 
 5. 密码 password string
 
 ##场地信息gym_info
@@ -94,12 +95,16 @@
 ## 商家注册页面数据格式
 ### 手机注册
 1. 用户名 p_username
-2. 手机号 p_phone_num
+2. 手机号 p_username
 3. 密码 p_password
 4. 再次输入的密码 p_re_password(只用于前端验证，不发送)
 
 ### 邮箱注册
 1. 用户名 m_username
-2. 邮箱地址 m_email
+2. 邮箱地址 m_username
 3. 密码 m_password
 4. 再次输入的密码 m_re_password(只用于前端验证，不发送)
+
+##商家登录页面数据格式
+1. 用户名 username(手机号或者邮箱)
+2. 密码 password
