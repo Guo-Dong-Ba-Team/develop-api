@@ -1,4 +1,4 @@
-﻿# 数据库表格
+﻿#1. 数据库表格
 
 ##商家信息business_info
 1. 用户名 name: string 
@@ -34,7 +34,7 @@
 5. 订单支付金额 order_money float
 
 
-# app后台和app前端数据接口-JSON格式
+#2. app后台和app前端数据接口-JSON格式
 
 ##后台向前端发送场馆信息的格式：
 1.gym_info_brief 简要信息，在主页和场馆列表中展示
@@ -90,7 +90,16 @@
 }
 
 
+#3. web前端和后端数据格式
+## 商家注册页面数据格式
+### 手机注册
+1. 用户名 p_username
+2. 手机号 p_phone_num
+3. 密码 p_password
+4. 再次输入的密码 p_re_password(只用于前端验证，不发送)
 
-
-
-# web前端和后端数据格式
+### 邮箱注册
+1. 用户名 m_username
+2. 邮箱地址 m_email
+3. 密码 m_password
+4. 再次输入的密码 m_re_password(只用于前端验证，不发送)
