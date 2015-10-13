@@ -1,7 +1,7 @@
 ﻿#1. 数据库表格
 注：PK表示Primary Key，即主键
 
-##商家信息business_info
+##商家信息business_user
 1. 用户名 name: string(手机号或者邮箱) PK
 2. 登录方式 login_type: bool 用手机登陆还是用邮箱登陆（0为手机）
 3. 手机号 phone_num string 
@@ -18,8 +18,8 @@
 7. 单价 single_price float 
 8. 会员(包月)价格 vip_price float
 9. 打折信息 discount float, 如0.58表示58折优惠
-10. 运动设施描述 hardware string
-11. 服务设施描述 service string
+10. 运动设施描述 hardware_info string
+11. 服务设施描述 service_info string
 
 ##app端用户信息customer_info
 1. 用户名 user_name string 
