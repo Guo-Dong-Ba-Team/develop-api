@@ -64,7 +64,7 @@
 'address','string',
 'longitude', 'float',
 'latitude', 'float',
-'phone_num', 'int',
+'phone_num', 'string',
 'image':'string',
 'open_time', 'string',
 'single_price':'float',
@@ -76,10 +76,11 @@
 }
 3. 整个场馆发送格式
 {
-gym_num:  'int',
+'gym_brief':[
 {gym1_brief/detail},
 {gym2_brief/detail},
 ...
+]
 }
 ## 前台向后台请求加载场馆信息的格式：
 1. 请求简要信息： 'gym_info_brief'
