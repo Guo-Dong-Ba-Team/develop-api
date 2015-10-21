@@ -65,7 +65,13 @@
 'longitude', 'float',
 'latitude', 'float',
 'phone_num', 'string',
-'image':'string',
+'main_image':'string',
+'detail_image':[
+{'string1'},
+{'string2'},
+{'strig3'},
+...
+]
 'open_time', 'string',
 'single_price':'float',
 'vip_price':'float',
