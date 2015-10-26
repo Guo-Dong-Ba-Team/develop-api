@@ -132,3 +132,11 @@
 ##商家登录页面数据格式
 1. 用户名 username(手机号或者邮箱)
 2. 密码 password
+
+#4. 后台服务器URL格式
+1. 注册： /register?username=username&password=password&phone=12345678912
+返回值：0：注册成功；1：这个手机号已经被注册；2：这个昵称已经被使用
+
+2. 登录： /login? phone=12345678912&password=password.
+返回值： 0：登录成功； 1. 该手机号还没有注册； 2：手机号或密码不正确
+
