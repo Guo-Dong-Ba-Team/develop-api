@@ -46,10 +46,10 @@
 
 ##订单信息order_info
 1. 下单的客户手机号 user customer_info 表格phone的外键
-2. 预订的场馆名称  gym_name gym_info 表格的name的外键
-3. 下单时间 order_time date
-4. 订单状态： order_status int (3种，未消费，已消费，已取消) 
-5. 订单支付金额 order_money float
+2. 预订的场馆名称  gym_id gym_info 表格的id的外键
+3. 下单时间 time date
+4. 订单状态： status int (3种，未消费，已消费，已取消) 
+5. 订单支付金额 money float
 
 
 #2. app后台和app前端数据接口-JSON格式
@@ -154,3 +154,14 @@
 2. 请求详细信息： /gym_info_detail?gym_id=2
 3. 请求某一类场馆：/gym_info_brief?type=1
 
+##4. 请求订单:
+/order_info?user=098765432112
+返回：JSON格式的订单：
+{
+order_info:
+[
+{"user": "12222222222", "gym_id":2, "time": "2012-03-12","status": 2, "money": 23},
+{"user": "11113333222", "gym_id":1, "time": "2012-03-12","status": 1, "money": 20},
+{"user": "12345678912", "gym_id":1, "time": "2012-03-12","status": 1, "money": 20},
+]
+}
