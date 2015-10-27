@@ -56,6 +56,7 @@
 
 ##后台向前端发送场馆信息的格式：
 1.gym_info_brief 简要信息，在主页和场馆列表中展示
+```javascript
 {
 'name': 'string',
 'longtitude', 'float',
@@ -65,8 +66,9 @@
 'vip_price', 'float',
 'discount': 'float'
 }
-
+```
 2.gym_info_detail: 详细信息，在场馆详情页面中展示,**初始化时为简要信息**
+```javascript
 {
 'name': 'string',
 'longitude', 'float',
@@ -90,7 +92,9 @@
 'service': 'string',
 'star_level', 'int',
 }
+```
 3. 整个场馆发送格式
+```javascript
 {
 'gym_brief':[
 {gym1_brief/detail},
@@ -98,7 +102,7 @@
 ...
 ]
 }
-
+```
 
 ## 前台向后台发送用户登录或注册信息的格式：
 {
@@ -157,6 +161,7 @@
 ##4. 请求订单:
 /order_info?user=098765432112
 返回：JSON格式的订单：
+```javascript
 {
 order_info:
 [
@@ -165,3 +170,4 @@ order_info:
 {"user": "12345678912", "gym_id":1, "time": "2012-03-12","status": 1, "money": 20},
 ]
 }
+```
