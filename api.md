@@ -28,14 +28,14 @@
 15. 运动设施描述 hardware_info string
 16. 服务设施描述 service_info string
 
-## 图片地址表 detail_images
+## 图片地址表 gym_detail_images
 1. 所属场馆id gym_id  
 2. 图片在服务器保存地址 path  
 
 
-##用户评价场馆表
-1. 场馆id gym_id
-2. 星级 star_level int 
+##用户评价场馆表 gym_star_level
+1. 场馆id gym_id 
+2. 星级 star_level int ENUM('1','2','3','4','5') 
 
 
 ##app端用户信息customer_info
@@ -141,10 +141,12 @@
 2. 密码 password
 
 #4. 后台服务器URL格式
-##1. 注册： /register?username=username&password=password&phone=12345678912
+##1. 注册：   
+/register?username=username&password=password&phone=12345678912
 返回值：0：注册成功；1：这个手机号已经被注册；2：这个昵称已经被使用
 
-##2. 登录： /login? phone=12345678912&password=password.
+##2. 登录：  
+/login? phone=12345678912&password=password.
 返回值： 0：登录成功； 1. 该手机号还没有注册； 2：手机号或密码不正确
 
 ##3.  前台向后台请求加载场馆信息的URL格式：返回值均为JSON格式
