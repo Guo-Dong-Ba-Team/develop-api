@@ -14,7 +14,7 @@
 1. 场地拥有者 owner 以business_user表格的user_name为外键
 2. 名称 name string  PK
 3. 场馆电话 phone string 
-4. 场馆类型： type int (1: 羽毛球馆，2：乒乓球馆，3：篮球馆，4：健身馆，5：桌，球馆，6:游泳馆，)
+4. 场馆类型： type int (1: 羽毛球馆，2：乒乓球馆，3：网球馆，4：健身馆，5：桌球馆，6:游泳馆，)
 5. 地址1 address_city string
 6. 地址2 address_detail string(蜀山区金寨路96号，web端嵌入地图，让商家选择自己位置，非核心功能)
 7. 场馆经度 longtitude
