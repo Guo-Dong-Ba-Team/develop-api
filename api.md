@@ -159,15 +159,15 @@
 3. 请求某一类场馆：/gym_info_brief?type=1
 
 ##4. 请求订单:
-/order_info?user=098765432112
+/order_info?user=098765432112&status=3
 返回：JSON格式的订单：
 ```javascript
 {
 order_info:
 [
 {"user": "12222222222", "gym_id":2, "time": "2012-03-12","status": 2, "money": 23},
-{"user": "11113333222", "gym_id":1, "time": "2012-03-12","status": 1, "money": 20},
-{"user": "12345678912", "gym_id":1, "time": "2012-03-12","status": 1, "money": 20},
+{"user": "11113333222", "gym_id":1, "time": "2012-03-12","status": 2, "money": 20},
+{"user": "12345678912", "gym_id":1, "time": "2012-03-12","status": 2, "money": 20},
 ]
 }
 ```
