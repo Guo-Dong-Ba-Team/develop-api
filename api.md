@@ -42,7 +42,6 @@
 1. 用户名 username string 
 2. 密码 password string 
 3. 手机号 phone string PK
-4. 是否登录 login_flag bool
 
 ##订单信息order_info
 1. 下单的客户手机号 user customer_info 表格phone的外键
