@@ -24,7 +24,7 @@ CREATE TABLE IF NOT	EXISTS gym_info(
 	type int(8), ##1. 羽毛球 2.乒乓球 3. 网球 4. 健身馆 5.桌球 6.游泳馆
 	address_city varchar(20),
 	address_detail varchar(500),
-	longtitude float(20),
+	longitude float(20),
 	latitude float(20),
 	main_image varchar(500),
 	open_time varchar(100),
