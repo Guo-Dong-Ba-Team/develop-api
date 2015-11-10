@@ -58,6 +58,7 @@
 ```javascript
 {
 'name': 'string',
+'id':'int',
 'longitude', 'float',
 'latitude', 'float',
 'main_image':'string',
