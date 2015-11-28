@@ -173,4 +173,4 @@ order_info:
 ]
 }
 ```
-2. 向服务器上传订单：/order?user=12345678912&gym_name="gymname"&status=1&order_time=2015-03-12&reserve_day=2015-12-12&reserve_hour=08&price=20.0
+2. 向服务器上传订单：/order?user=12345678912&gym_name="gymname"&status=1&order_time=2015-03-12&reserve_day=2015-12-12&reserve_hour=8&reserve_filed=3&price=20.0
