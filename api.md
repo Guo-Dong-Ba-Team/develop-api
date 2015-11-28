@@ -45,10 +45,11 @@
 
 ##订单信息order_info
 1. 下单的客户手机号 user customer_info 表格phone的外键
-2. 预订的场馆名称  gym_id gym_info 表格的id的外键
-3. 下单时间 time date
-4. 订单状态： status int (3种，未消费，已消费，已取消) 
-5. 订单支付金额 money float
+2. 预订的场馆名称  gym_name
+3. 下单时间 order_time date
+4. 预订的去场馆的时间 reserve_time date
+5. 订单状态： status int (3种，未消费，已消费，已取消) 
+6. 订单支付金额 money float
 
 
 #2. app后台和app前端数据接口-JSON格式
