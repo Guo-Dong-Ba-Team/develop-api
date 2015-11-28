@@ -67,8 +67,9 @@ CREATE TABLE IF NOT	EXISTS customer_info(
 ##订单信息
 CREATE TABLE IF NOT	EXISTS order_info(
 	user varchar(100),
-	gym_id int,
-	time date,
+	gym_name varchar(500),
+	order_time date, ##下订单的时间
+	reserve_time date ## 预订的去场馆的时间
 	status int(8),
 	money float,
 	##
