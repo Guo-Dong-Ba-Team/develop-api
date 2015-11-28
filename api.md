@@ -167,9 +167,9 @@
 {
 order_info:
 [
-{"user": "12222222222", "gym_id":2, "time": "2012-03-12","status": 2, "money": 23},
-{"user": "11113333222", "gym_id":1, "time": "2012-03-12","status": 2, "money": 20},
-{"user": "12345678912", "gym_id":1, "time": "2012-03-12","status": 2, "money": 20},
+{"user": "12222222222", "gym_name":"某某乒乓球馆", "order_time": "2012-03-12","reserve_time":"2015-12-12 08:00:00", "reserve_field":3,"status": 2, "money": 23},
+{"user": "12222222222", "gym_name":"某某乒乓球馆", "order_time": "2012-03-12","reserve_time":"2015-12-12 08:00:00", "reserve_field":3,"status": 2, "money": 23},
+{"user": "12222222222", "gym_name":"某某乒乓球馆", "order_time": "2012-03-12","reserve_time":"2015-12-12 08:00:00", "reserve_field":3,"status": 2, "money": 23}
 ]
 }
 ```
