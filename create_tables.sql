@@ -70,6 +70,7 @@ CREATE TABLE IF NOT	EXISTS order_info(
 	gym_name varchar(500),
 	order_time date, ##下订单的时间
 	reserve_time date ## 预订的去场馆的时间
+	reserve_field int ##预订是第几块场地
 	status int(8),
 	money float,
 	##
