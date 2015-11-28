@@ -159,8 +159,8 @@
 2. 请求详细信息： /gym_info_detail?gym_id=2
 3. 请求某一类场馆：/gym_info_brief?type=1
 
-##4. 请求订单:
-/order_info?user=098765432112&status=3
+##4. 订单:
+1. 请求订单：/order_info?user=098765432112&status=3
 返回：JSON格式的订单：
 ```javascript
 {
@@ -172,3 +172,4 @@ order_info:
 ]
 }
 ```
+2. 向服务器上传订单：/order?user=12345678912&gym_name="gymname"&status=1&order_time=2015-03-12&reserve_day=2015-12-12&reserve_hour=08&price=20.0
