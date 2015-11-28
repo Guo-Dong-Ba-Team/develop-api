@@ -48,8 +48,9 @@
 2. 预订的场馆名称  gym_name
 3. 下单时间 order_time date
 4. 预订的去场馆的时间 reserve_time date
-5. 订单状态： status int (3种，未消费，已消费，已取消) 
-6. 订单支付金额 money float
+5. 预订的场地编号 reserve_field int
+6. 订单状态： status int (3种，未消费，已消费，已取消) 
+7. 订单支付金额 money float
 
 
 #2. app后台和app前端数据接口-JSON格式
