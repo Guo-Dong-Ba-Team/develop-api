@@ -174,3 +174,4 @@ order_info:
 }
 ```
 2. 向服务器上传订单：/order?user=12345678912&gym_name="gymname"&status=1&order_time=2015-03-12&reserve_day=2015-12-12&reserve_hour=8&reserve_filed=3&price=20.0
+3. 向服务器请求某个场馆在某天内的订单: /gym_order?gym_name="gymname"&date=2015-12-01, 返回值：返回所有场地的是否预订的数组，0为已经预订，1为没有预订
