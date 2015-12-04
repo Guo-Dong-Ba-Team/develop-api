@@ -33,6 +33,7 @@ CREATE TABLE IF NOT	EXISTS gym_info(
 	discount float,
 	hardware_info varchar(1000),
 	service_info varchar(1000),
+	field_num int,
 	PRIMARY KEY(id),
 	CONSTRAINT FOREIGN KEY (owner) REFERENCES business_user(user_name),
 	INDEX idx_id(id)
