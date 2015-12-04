@@ -27,6 +27,7 @@
 14. 打折信息 discount float, 如0.58表示五八折优惠
 15. 运动设施描述 hardware_info string
 16. 服务设施描述 service_info string
+17. 场地数目 field_num int 
 
 ## 图片地址表 gym_detail_images
 1. 所属场馆id gym_id  
