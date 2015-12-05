@@ -74,6 +74,7 @@ CREATE TABLE IF NOT	EXISTS order_info(
 	reserve_field int ##预订是第几块场地
 	status int(8),
 	money float,
+	id varchar(10),
 	##
 	#CONSTRAINT FOREIGN KEY (user) REFERENCES customer_info(username),
 	#CONSTRAINT FOREIGN KEY (gym_id) REFERENCES gym_info(id)
