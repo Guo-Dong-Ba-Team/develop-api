@@ -52,7 +52,7 @@
 5. 预订的场地编号 reserve_field int
 6. 订单状态： status int (3种，未消费，已消费，已取消) 
 7. 订单支付金额 money float
-
+8. 订单ID id varchar(10)
 
 #2. app后台和app前端数据接口-JSON格式
 
